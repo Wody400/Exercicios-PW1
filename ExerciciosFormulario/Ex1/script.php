@@ -1,7 +1,7 @@
 <?php
     $nome = $_GET["nome"] ?? "desconhecido";
-    $idade = $_GET["idade"] ?? "??";
-    $sexo = $_GET["sexo"] ?? "nao binario";
+    $idade = $_GET["idade"] ?? "desconhecido";
+    $sexo = $_GET["sexo"] ?? "desconhecido";
     $salario1 = $_GET["salario1"] ?? 0;
     $salario2 = $_GET["salario2"] ?? 0;
     $salario3 = $_GET["salario3"] ?? 0;
